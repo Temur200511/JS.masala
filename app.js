@@ -131,3 +131,22 @@
 // else{
 //     console.log('Noto‘g‘ri qiymat kiritildi');
 // }
+
+
+
+
+
+let x1 = parseInt(prompt("Birinchi uchning x koordinatasini kiriting:"));
+let y1 = parseInt(prompt("Birinchi uchning y koordinatasini kiriting:"));
+
+let x2 = parseInt(prompt("Ikkinchi uchning x koordinatasini kiriting:"));
+let y2 = parseInt(prompt("Ikkinchi uchning y koordinatasini kiriting:"));
+
+let x3 = parseInt(prompt("Uchinchi uchning x koordinatasini kiriting:"));
+let y3 = parseInt(prompt("Uchinchi uchning y koordinatasini kiriting:"));
+
+
+let x4 = (x1 === x2) ? x3 : (x1 === x3) ? x2 : x1;
+let y4 = (y1 === y2) ? y3 : (y1 === y3) ? y2 : y1;
+
+console.log(`To'rtburchakning to'rtinchi uchi koordinatalari: (${x4}, ${y4})`);
