@@ -101,12 +101,33 @@
 
 
 
+// const a = parseFloat(prompt('kub tomonini kiriting: '));
+
+// const hajm = a ** 3;
+// const yuzasi = 6 * a ** 2;
+
+// console.log(`Kub hajmi: ${hajm}`);
+// console.log(`Kub yuzasi: ${yuzasi}`);
 
 
-const a = parseFloat(prompt('kub tomonini kiriting: '));
 
-const hajm = a ** 3;
-const yuzasi = 6 * a ** 2;
 
-console.log(`Kub hajmi: ${hajm}`);
-console.log(`Kub yuzasi: ${yuzasi}`);
+
+
+// let x = parseFloat(prompt('X qiymatini kiriting: '));
+// let y = parseFloat(prompt('Y qiymatini kiriting: '));
+
+// if(x>=1 && x<=8 && y>=1 && y<=8){
+//   if((x+y)/2===0){
+//     console.log(`(${x}, ${y}) maydon oq`);
+    
+//   }
+// else{
+//     console.log(`(${x}, ${y}) maydon qora`);
+    
+// }
+
+// }
+// else{
+//     console.log('Noto‘g‘ri qiymat kiritildi');
+// }
