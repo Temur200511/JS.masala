@@ -22,39 +22,41 @@
 
 
 
-// const A = 10;
-// const B = 5;
-// const amal = 3;
 
-// let result;
+
+// let A = parseFloat(prompt("A sonini kiriting:"));
+// let B = parseFloat(prompt("B sonini kiriting:"));
+// let amal = parseInt(prompt("Amalni tanlang (1: Qo'shish, 2: Ayirish, 3: Bo'lish, 4: Ko'paytirish):"), 10);
 
 // switch (amal) {
-//   case 1:
-//     result = A + B;
-//     break;
-//   case 2:
-//     result = A - B;
-//     break;
-//   case 3:
-//     result = A / B;
-//     break;
-//   case 4:
-//     result = A * B;
-//     break;
-//   default:
-//     result = 'Noto‘g‘ri amal';
+//     case 1:
+//         console.log(`Qo'shish natijasi (A + B): ${A + B}`);
+//         break;
+//     case 2:
+//         console.log(`Ayirish natijasi (A - B): ${A - B}`);
+//         break;
+//     case 3:
+//         if (B !== 0) {
+//             console.log(`Bo'lish natijasi (A / B): ${A / B}`);
+//         } else {
+//             console.log("Xato: 0 ga bo'lish mumkin emas!");
+//         }
+//         break;
+//     case 4:
+//         console.log(`Ko'paytirish natijasi (A * B): ${A * B}`);
+//         break;
+//     default:
+//         console.log("Noto'g'ri amal tanlandi. Iltimos, 1, 2, 3 yoki 4 ni tanlang.");
+//         break;
 // }
 
-// console.log(`Natija: ${result}`);
 
 
 
 
 
-
-
-// const element = 1; 
-// const qiymat = 7; 
+// const element = parseFloat(prompt('Element turi (1: radius, 2: diametr, 3: uzunlik, 4: yuzasi)')); 
+// const qiymat = parseFloat(prompt('Element qiymati: ')); 
 // const pi = 3.14;
 
 // let radius, diameter, uzunlik, yuzasi;
@@ -92,3 +94,19 @@
 // console.log(`Diametr: ${diameter}`);
 // console.log(`Uzunlik: ${uzunlik}`);
 // console.log(`Yuzasi: ${yuzasi}`);
+
+
+
+
+
+
+
+
+
+const a = parseFloat(prompt('kub tomonini kiriting: '));
+
+const hajm = a ** 3;
+const yuzasi = 6 * a ** 2;
+
+console.log(`Kub hajmi: ${hajm}`);
+console.log(`Kub yuzasi: ${yuzasi}`);
